@@ -322,6 +322,7 @@ static struct usb_device_id rtw_usb_id_tbl[] ={
 	{USB_DEVICE(0x2357, 0x0107),.driver_info = RTL8192E}, /* TP-Link - Cameo */
 	{USB_DEVICE(0x2357, 0x0108),.driver_info = RTL8192E}, /* TP-Link - Cameo */
 	{USB_DEVICE(0x2357, 0x0109),.driver_info = RTL8192E}, /* TP-Link - Cameo */
+	{USB_DEVICE(0x2c4e, 0x0100),.driver_info = RTL8192E}, /* MERCUSYS MW300UM */
 #endif
 
 #ifdef CONFIG_RTL8723B
